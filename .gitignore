@@ -1,0 +1,8 @@
+/lumen/vendor
+/lumen/.idea
+/lumen/Homestead.json
+/lumen/Homestead.yaml
+/lumen/.env
+/lumen/.phpunit.result.cache
+
+/lumen/files/*

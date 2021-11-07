@@ -12,7 +12,9 @@ services:
 
   php:
     container_name: php
-    build: .
+    build: build/php
+    volumes:
+      - ./lumen:/var/www/html:rw,cached
     working_dir: /var/www/html
     command: php-fpm
     ports:
